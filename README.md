@@ -23,6 +23,9 @@ This add-on can be treated as both a WP plugin and a theme include.
 ```php
 include_once('acf-tooltip/acf-tooltip.php');
 ```
+### Custom - add your own images for preview
+
+Images must be statically defined in /js/acf-tooltip-v5.js as of now. Data names MUST match in order for the correct image to show, so this works must easier if all sites have the same data names for common fields.
 
 ### Compatibility
 
